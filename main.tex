@@ -24,15 +24,36 @@
 \normalsize  {Charles Jebalitherson Augustin Moses}}
 \begin{document}
 \maketitle
+ 
+\tableofcontents
+\chapter{Problem 1}
+\section{Introduction}
+In this document, we will analyse and discuss(iGo) about the online ticket vending machine that can be used across all the cities of Canada. The requirements and use cases are recorded in the pictorial representation with the help of use modeling, problem domain modeling, stakeholders modeling and use case modeling for different perspectives.
+\section{Scope}
+The online ticket vending machine(iGo) is used to serve public transportation including buses and local trains(metro). iGo users will have an online platform to recharge their OPUS cards and manage all the transactions at one place. iGo does not have any scope for maintaining the existing physical TVM's in metro stations.
+\section{Description of TVM (iGo)}
+iGo is a online web application system where users can sign-up, login and recharge their OPUS cards. iGo will send all the data to STM's(Société de transport de Montréal) system through secured communication protocol. iGo involves variety of actors such as Government of Canada, Public Transport Authority(STM), Payment authority, customer, station master,.. which makes it an interesting domain to study. \\\\
+The traveller must sign up an account with iGo for first time or they can sign in as guest user where transaction history will not be available. For signing up into the system, it is mandatory to enter OPUS card number. Only one OPUS card can be linked per user to avoid internal complexities and fraudulent use of OPUS card. Once the user is logged into the system, he/she can recharge their opus cards or purchase 1-way, 2-ways or weekend trip based on their requirement. New users can also see their transaction history at any point of time to better understand the usability of iGo.\\\\
+iGo will provide following services to its users,
 
-\chapter{Problem (1) Description of TVM}
-Ticket Vending Machine (will be referred as TVM in this document) is a self service automated ticket distribution system where tickets are printed and delivered to the users for transportation purpose. In this project, we analyse the TVM of metro operator in montreal called STM(Société de transport de Montréal). STM's TVM involves variety of actors such as Government, STM, Payment authority, customer, station master,.. which makes it an interesting domain to study. \\\\
-TVM is a stationary computerized machine installed in all metro stations. Every station has at-least one TVM installed in it for public use. STM provides two options of legal tender for transit namely Printed ticket and OPUS Card. Printed ticket is a small piece of paper, that gives holder a certain right to travel from a source to the destination. Printed ticket usually includes short term travels such as 1 trip, 2 trips, 3 day pass, Weekend unlimited trip,.. Drawback of printed ticket is its limited validity (Eg. 1 trip ticket expires within 120 minutes after it is validated).  On the other hand, OPUS card is a rechargeable, dual interface smart card using the Calypso Standard, ideally used for long term travel plans namely, Monthly pass, 4-month pass. Group tickets cannot be purchased using OPUS card. The travel fare varies based on different age groups of the user.\\\\
-TVM offers two ways of payment methods such as Cash(maximum of \$80) and Card(Debit, Credit).
-STM protects the customer information by handling the payments through high level secured communication protocol. TVM has in-built security feature  to validate the card, here TVM initiates a request to connect with financial institution server and validates the given card against the PIN entered by the user. STM has a strong established network that handles thousands of users on a daily basis and it is highly reliable.\\\\
-TVM is also used to assist in management of queue and priority of services in financial institutions, universities, and customer help desks of several organizations. It saves the time, money and effort by providing the services in a quick and efficient manner. TVM is highly available but fails rarely due to power outage, internet service breakdown and other TVM machine related problems.\\
+\begin{enumerate}
+    \item A customer must be able to sign-up to an account online with their email address or mobile number or any social media account( Google, Facebook) and be able to link their OPUS card to personal iGo account.
+    \item A customer must be able to make payment in one of three ways namely Master/ Visa debit card, Master/ Visa credit card and Paypal account. (If it's a web based application, why not interac?)
+    \item A customer must be able to view their existing iGo wallet balance.
+    \item A customer must be able to view their iGo transactions, and must be able to print out their transactions.
+    \item A customer must be able to schedule the pre authorized payments for their OPUS cards.
+    \item A customer must be able to add/ modify or delete personal information.
+    \item A customer must be able to remove OPUS card from iGo account at any point of time.
+    
+\end{enumerate}
+
+STM protects the customer information by handling the payments through high level secured communication protocol. iGo has in-built security feature  to validate the card, here iGo initiates a request to connect with financial institution. Once the connection is established, banking institution validates the given card against the PIN entered by the user. iGo has a strong established network that handles thousands of users on a daily basis and it is highly reliable.\\\\
+iGo is also used to assist in management of queue and priority of services in financial institutions, universities, and customer help desks of several organizations. It saves the time, money and effort by providing the services in a quick and efficient manner. iGo is highly available but fails rarely due to power outage, internet service breakdown.\\\\
+iGo will also maintain its internal log of transactions to resolve ambiguities arising from a connection failure in the middle of transaction between iGo and STM System. Al the events will be recorded in the log when a traveller registers an account, logs in and  also the web pages that user visits. This log data helps us to perform analytics and improve them to attract new customers.
 
 \qquad\qquad\qquad\qquad \includegraphics[width=70mm,scale=0.5]
 {opus.png}\\
-\tab\tab\qquad\qquad Fig.1 Sample of OPUS card (Source: Carte OPUS)
+\tab\tab\qquad\qquad Fig.1 A Sample OPUS card (Source: Carte OPUS)
+
+
 \end{document}
