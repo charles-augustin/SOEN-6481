@@ -1,0 +1,158 @@
+\chapter{Problem 2}
+\section{Context of use model : CU_{I_G_O}}
+
+\subsection{Users}
+Users of iGo can be divided into two category primary and secondary based on their reason to use the iGo. Users who will use iGo to buy ticket, pass or recharge opus cards are primary users. Users who will use iGo for any other purpose are secondary users.
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|c|c|}
+    \hline
+     \hline
+    \multicolumn{3}{|c|}{Positive Stakeholder}\\
+      \hline
+       \hline
+    Type & Attribute & Constraint\\
+      \hline
+     End User &   &   \\
+     \hline
+               Station Master &  &  \\
+       \hline
+       Development team & &  \\
+         \hline
+         Sponsor & &  \\
+           \hline
+           Legal Department of Transit & &  \\
+             \hline
+             Bank & &  \\
+               \hline
+               STM & is stm the sponsor? &  \\
+                \hline
+               Marketing Team &  &  \\
+                 \hline
+                  \hline
+                  \multicolumn{3}{|c|}{Negative Stakeholder}\\
+      \hline
+       \hline
+           Hacker & &  \\
+             \hline
+             Fraudsters & & \\
+               \hline
+               Competitor & do stm have one? & \\
+               \hline
+              
+    \end{tabular}
+    \caption{User}
+    \label{tab:user}
+\end{table}
+\subsection{Tasks of users} \newline
+\textsc{\large \bf Positive stakeholder} \newline
+\textsc{\large \bf  Primary User:}Primary user, also known as end user, is A person who will use iGo to buy any kinds of ticket, pass or to recharge any opus card offered by STM.End users are further divided into three categories : \\
+Registered Users: Users who have an account in the iGo web system.\\
+Guest Users: Users who do not have an account in the iGo web system.\\
+Users with special discount: Users who get special discount from the STM.For example students and users who are more than 65 years old.\\
+\textsc{\large \bf User Characteristics:}\\
+ Age: To buy a ticket or opus card user must be more than 10 years of age.\\
+Proof of residency: To get a valid opus card from STM, user must have a valid address in Quebec. To get student discount users need to be registered in a valid educational institution in Quebec.\\
+Education: It is assumed that user will have the ability to read and understand either English or French language.\\
+Attitude to the system: User should be confident to use iGo.
+Physical Characteristics: iGo is accessible to user with wheelchair or visually impaired users.
+\textsc{\large  Task:}\\ One can buy a one way,two way, one day tickets or weekly pass from the iGo using cash,coin or debit/credit card.If they wish they can use flash pay which includes apple pay, paypal, interac.\\
+One can access metro or bus using Opus card given by STM too.A user can recharge his/her opus card from iGo.\\\\
+\textsc{\large  Constraints:} \\
+Buying Opus card: User can not buy opus card from TVM. They need to go to designated STM offices to buy opus card.\\
+Using Cash: One user can not use more than \$80 cash in TVM at a time.\\\\
+\textsc{\large \bf Station Master:}A person employeed by STM who will be there to give any kind of assistance needed to use TVM also will have authority to punish the fraudsters. \\
+\textsc{\large  Task:} \\ They may help customers at the time of any kind of disruption of services, for example if a valid service is not working they may assist by selling the tickets or passes offered by STM.They may assist a novice, differently abled or aged user to learn how to use TVM. \\
+\textsc{\large  constraint:} \\Station Master may not help negative stakeholders like hackers, fraudsters or competitors with any kind of service or internal information about TVM \\\\
+\textsc{\large \bf Development Team:} Team responsible for developing, testing, integrating or assembling the software or Hardware of TVM \\
+\textsc{\large  Task:}\\ Development team should have access to valid requirement list for TVM. They should be allowed to test and check the system in TVM from any Metro station.\\
+\textsc{\large  Constraints:} \\
+Known Publicly: Any member of development team including but not limited to project manager, developers, testers can not make them known publicly for any personal or professional reason.\\
+Marketing purpose: The organization or the development team can not use any project related to TVM for any kind of marketing or advertisement.\\\\
+\textsc{\large \bf  Bank:} Canadian bank that processes all the transaction happens through TVM.\\
+\textsc{\large  Task:} Details of which banks are involved and what are the tasks are beyond the scope of iGo.\\\\
+\textsc{\large \bf  STM:} Organization have authority to build, improve, place TVM in Montreal \\
+\textsc{\large  Task:} STM defines all the rules and also offers any discount for tickets,pass or opus cards.\\\\
+\textsc{\large \bf  Marketing Team:} Team dedicated to motivate people of Montreal to use TVM to access public transport. \\
+\textsc{\large  Task:} Marketing Team may use print media, broadcast media,internet to encourage end users to use the service. They may offer any benefit or incentive to any users. \\
+\textsc{\large  constraint:}\\They are not allowed to give out any internal information or offer illegal incentives. \\\\
+\textsc{\large \bf Negative stakeholder}\\\\
+\textsc{\large \bf  Hacker:} \\
+\textsc{\large  Task:}Hacker may abuse any software or hardware to get information either from TVM or a end user.\\
+\textsc{\large \bf  Fraudsters:} \\
+\textsc{\large  Task:}Fraudsters may miss use the system by breaking any rule to get a benefit. \\\\
+\textsc{\large \bf  Competitor:}\\
+\textsc{\large  Task:}Competitor may get any internal information of TVM to come up with a new improved version. \\
+\subsection{Environment:}\\
+\textsc{\large \bf Technical Environment}\\\\
+\textsc{\large \bf Software:} The iGo website should be accessible from any desktop, laptop or mobile device running on windows 10 operating system.  \\\\
+\textsc{\large \bf Screen:}   \\
+\textsc{\large  Task:}Screen of the physical machine in metro station should be accessible by both touch and buttons.Web page of iGo should be accessible for color blind users. \\
+\textsc{\large  constraint:} To help better usability the screen should not contain more than four item at a time.\\\\
+\textsc{\large \bf Keypad:} \\
+\textsc{\large  Task:}in physical TVM the keypad must be inclined such a way that it is accessible to people using wheelchair and people of different height. Buttons must have support for braille. Different buttons should have different sound to help to distinguish among different key strokes. \\\\
+\textsc{\large \bf Payment Card Reader:} \\
+\textsc{\large  Task:} Payment card reader Should have the capability to read all Canadian bank cards and it should be positioned such a way that gives highest privacy to users.   \\\\
+\textsc{\large \bf Opus Card Reader:} \\
+\textsc{\large  Task:} Opus card reader Should have the capability to read all kind of opus cards offered by STM.  \\\\
+\textsc{\large \bf Mechanical coin and cash collector:}\\
+\textsc{\large  Task:} User can buy tickets,pass or recharge opus card using cash or coin from the TVM in metro station but they need to insert exact amount in the machine. 
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|c|c|}
+    \hline
+     \hline
+    \multicolumn{3}{|c|}{Technical Environment}\\
+      \hline
+       \hline
+    Type & Attribute & Constraint\\
+      \hline
+     Hardware & &  \\
+       \hline
+       Software & &  \\
+        \hline
+       Screen & &  \\
+        \hline
+       Keypad & &  \\
+        \hline
+       Payment Card Reader  & &  \\
+        \hline
+       Opus Card Reader  & &  \\
+         \hline
+          \hline
+             \multicolumn{3}{|c|}{Nontechnical Environment}\\
+             \hline
+              \hline
+               Dimension & &  \\
+             \hline
+           Light & &  \\
+             \hline
+             Sound & & \\
+           \hline
+           Space & &  \\
+             \hline
+              Usability & &  \\
+             \hline
+              Accessibility &  &\\
+              \hline
+               Availability &  &\\
+              \hline
+                Reliability &  &\\
+              \hline
+              Security & &  \\
+             \hline
+              Privacy & &  \\
+             \hline
+             
+    \end{tabular}
+    \caption{Environment}
+    \label{tab:environment}
+\end{table}
+\\
+\textsc{\large \bf Physical Environment}\\\\
+\textsc{\large \bf Dimension:} Height should be equal to height of average human being. \\
+\textsc{\large \bf light:} Light should be adequate so that users can clearly see the screen, keypad and different card holders. \\
+\textsc{\large \bf Social Environment}\\\\
+\textsc{\large \bf Location:} The physical Tvm of iGo should be placed near station master's booth and close to the mechanical gates of metro.\\\\
+\textsc{\large \bf Space:} There must be adequate space in front of the physical TVM, so that at least 10 people can line up. \\
