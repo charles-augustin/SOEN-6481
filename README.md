@@ -10,9 +10,9 @@ Software Systems Requirements Specification
 |Maria Ahmed|40070844|
 |Sri Akhil Varma Alluri|40082333|
 
-Ticket Vending Machine(TVM)
+## iGo
 
-TVM is a self-service system used in public transportation across canada.
+iGo TVM is a self-service system used in public transportation across canada.
 
 Goal: To generate the required artifacts related to the given problem domain.
 
