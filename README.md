@@ -22,4 +22,14 @@ Goal: To generate the required artifacts related to the given problem domain.
 
 It also includes:
   - Generating user story and use case models - UML Diagrams.
-  - Effective Use of collaboration pattern and social software such as github wiki, slack,etc..
+  - Effective Use of collaboration pattern and social software such as github wiki, slack, etc..
+
+## Roles and responsibilities for Deliverable 1
+
+|Name/Problem                        |Research about TVM|Interview Questions|Problem 1|Problem 2|Problem 3|Problem 4|Documentation|
+|:----------------------------------:|:----------------:|:-----------------:|:-------:|:-------:|:-------:|:-------:|:-----------:|
+|Maria Ahmed                         |✔                 |✔                 |         |✔        |         |        |✔            |
+|Sri Akhil Varma Alluri              |✔                 |✔                 |         |         |✔        |        |✔            |
+|Adarsh Aravind                      |✔                 |✔                 |         |         |         |✔       |✔            |
+|Dheeraj Ashok Shobha                |✔                 |✔                 |         |         |✔        |        | ✔           |
+|Charles Jebalitherson Augustin Moses|✔                 |✔                 |✔        |         |         |✔       |✔            |
