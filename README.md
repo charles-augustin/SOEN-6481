@@ -1,9 +1,13 @@
 # SOEN-6481
-Software Systems Requirements Specification
+Software Systems Requirements Specification, Fall 2019
+Team A
+
+Requirement analysis for Ticket Vending Machine 
+
 ## Team Composition
 
-| Name  | Student id |
-| --- | --- |
+| Name  | Student ID |
+|-------|------------|
 |Adarsh Aravind| 40082585|
 |Charles Jebalitherson Augustin Moses | 40084105 |
 |Dheeraj Ashok  Shobha|40082192|
